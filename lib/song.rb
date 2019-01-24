@@ -60,4 +60,8 @@ class Song
     new_song.name = song
     new_song
   end
+
+  def self.destroy_all
+    @@all.delete
+  end
 end
